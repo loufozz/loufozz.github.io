@@ -13,7 +13,7 @@ h1{
 
 a{
     color:rgb(240, 230, 235);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .cimeteryEntr{
@@ -22,7 +22,7 @@ a{
   margin-top:15vw;
   text-align:center;
   align-content:center;
-  font-size:33px;
+  font-size:25px;
   color: white;
   position:absolute;
   
