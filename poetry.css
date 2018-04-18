@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(10, 5, 15);
+}
+
+@font-face{
+    font-family: Subway Novella;
+    src: url('SubwayNovellaDEMO.ttf');
+}
+
+@font-face{
+    font-family: Another day in Paradise;
+    src: url('Another_day_in_Paradise.ttf');
+}
+
+.litt{
+    transform: translate(30%, 0);
+    font-family: Subway Novella;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    color: rgb(255, 240, 230);
+    margin: auto;
+    margin-top: 80px;
+    font-size: 30px;
+    
+}
+
+a{
+    color:rgb(240, 230, 235);
+    text-decoration: none;
+}
+
+.transEn{
+    opacity: 0.1;
+    font-size:25px;
+}
+
+.transEn:hover{
+    opacity: 0.5;
+    font-size:25px;
+}
+
+.name{
+    margin-left: 80vw;
+    top:92vw;
+    width:0px;
+    height:auto;
+    font-family: Subway Novella;
+    /*font-family: Another day in Paradise;*/
+    color: rgb(255, 240, 230);
+    font-size: 30px;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.home{
+    margin-left: 18vw;
+    top:60vw;
+    width:0px;
+    height:auto;
+    font-family: Subway Novella;
+    color: rgb(255, 240, 230);
+    font-size: 30px;
+    opacity: 0.6;
+}
