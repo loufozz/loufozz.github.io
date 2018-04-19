@@ -23,7 +23,7 @@ a{
 
 .linda{
     display:block;
-    width:300px;
+    width:200px;
     height:auto;
     margin: 25% auto 0 auto;
     position: absolute;
@@ -68,8 +68,8 @@ a{
     margin-top:0px;
     top:0px;
     left:0px;
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 500px;
     opacity: 0;
     z-index: 2;
     position: absolute;
