@@ -14,16 +14,9 @@ a{
     text-decoration: none;
 }
 
-.belleza {
-    width:300px;
-    height: auto;
-    margin: 25% auto 0 auto;
-    display: none;
-}
-
 .linda{
     display:block;
-    width:400px;
+    width:25%;
     height:auto;
     margin: 25% auto 0 auto;
     position: absolute;
