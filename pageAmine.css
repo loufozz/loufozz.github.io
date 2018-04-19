@@ -23,7 +23,7 @@ a{
 
 .linda{
     display:block;
-    width:200px;
+    width:300px;
     height:auto;
     margin: 25% auto 0 auto;
     position: absolute;
@@ -50,17 +50,17 @@ a{
 
 #b3{
     margin-left: -35vw;
-    margin-top: 5vw;
+    margin-top: 2vw;
 }
 
 #b1{
     margin-left: 0vw;
-    margin-top: -10vw;
+    margin-top: -13vw;
 }
 
 #b2{
     margin-left: 20vw;
-    margin-top: 0vw;
+    margin-top: -3vw;
 }
 
 .alixArt{
@@ -68,8 +68,8 @@ a{
     margin-top:0px;
     top:0px;
     left:0px;
-    width: auto;
-    height: 500px;
+    width: 150px;
+    height: auto;
     opacity: 0;
     z-index: 2;
     position: absolute;
