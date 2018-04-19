@@ -1,6 +1,6 @@
 var texts = document.querySelectorAll(".days h1");
 
-var audios = [new Audio ('alixSon.mp3'), new Audio ('fatineSon.mp3'), new Audio ('tatiSon.mp3'), new Audio ('najiSon.mp3'), new Audio ('amalSon.mp3'), new Audio ('miraSon.mp3')];
+var audios = [new Audio ('alixSon.mp3'), new Audio ('fatineSon.mp3'), new Audio ('tatiSon.mp3'), new Audio ('najiSon.mp3'), new Audio ('amalSon.mp3'), new Audio ('miraSon.mp3'), new Audio ('amineSon.mp3')];
 
 for (var i = 0; i < texts.length; i++) {
   texts[i].style.opacity = 0;
