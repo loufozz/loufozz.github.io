@@ -23,7 +23,7 @@ a{
 
 .linda{
     display:block;
-    width:300px;
+    width:250px;
     height:auto;
     margin: 25% auto 0 auto;
     position: absolute;
@@ -45,11 +45,11 @@ a{
 
 #b0{
     margin-left: -10vw;
-    margin-top: -23vw;
+    margin-top: -20vw;
 }
 
 #b3{
-    margin-left: -35vw;
+    margin-left: -32vw;
     margin-top: 2vw;
 }
 
