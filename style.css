@@ -1,9 +1,9 @@
 body{
-    border-radius: 75px;
-    padding: 100px 20px;
+    border-radius: 8vw;
+    /*padding: 10vw 2vw;*/
     background-color: rgb(255, 90, 120);
     font-family: Another day in Paradise;
-    
+
 }
 
 @font-face{
@@ -18,21 +18,23 @@ body{
 .line{
     text-align: center;
     display: inline-block;
-    letter-spacing: 3px;
-    font-size: 50px;
-    margin-left: -5px;
-    margin-top:-350px;
-    
+    letter-spacing: 0.5vw;
+    font-size: 2.5vw;
+    margin-left: -1vw;
+    margin-top:-6vw;
+    z-index: 1;
+
 }
 
 .day{
     text-align: center;
     display: inline-block;
-    letter-spacing: 3px;
-    font-size: 50px;
-    margin-left: -5px;
-    margin-top:-350px;
-    
+    letter-spacing: 0.5vw;
+    font-size: 2.5vw;
+    margin-left: -1vw;
+    margin-top:-4vw;
+    z-index: 2;
+
 }
 a>.day{
     color: rgb(0, 0, 0);
@@ -42,6 +44,8 @@ a>.day{
 
 a>.ici{
     color: rgb(255, 240, 230);
+    color: rgb(255, 240, 230, 0.6);
+    font-size: 2vw;
     text-decoration: none;
 }
 
@@ -54,7 +58,9 @@ a>.ici{
     align-content:center;
     width: 100%;
     height: 100%;
-    margin-left: -25px;
+    margin-left: -1vw;
+    z-index: 1;
+
 }
 
 .days{
@@ -67,129 +73,133 @@ a>.ici{
     align-content:center;
     width: 100%;
     height: 100%;
-    margin-left: -25px;
-    
+    margin-left: -1vw;
+    z-index: 2;
+
 }
 
 .ici{
-    top: 40vw;
-    margin-left: 7vw;
+    top: 80vh;
+    margin-left: 2vw;
     z-index:3;
     position: absolute;
 }
 
 #Mo{
-    border-radius: 100px;
-    padding: 100px 20px;
-    padding-top: 175px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-top: 12vw;
+    padding-bottom: 10vh;
     background-color: rgb(255, 90, 120);
     background-color: rgb(190, 5, 50);
 }
 
 #mo{
-    border-radius: 100px;
-    padding: 100px 20px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-bottom: 10vh;
     background-color: rgb(255, 90, 120);
-   
-	
+
 }
 
 #Tu{
-    border-radius: 100px;
-    padding: 100px 20px;
-    padding-top: 175px;
-    padding-bottom: 250px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-top: 12vw;
+    padding-bottom: 15vh;
     background-color: rgb(255, 50, 130);
     background-color: rgb(190, 5, 50);
 }
 
 #tu{
-    border-radius: 100px;
-    padding: 100px 20px;
-    padding-bottom: 250px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-bottom: 15vh;
     background-color: rgb(255, 50, 130);
 }
 
 #We{
-    border-radius: 100px;
-    padding: 100px 10px;
-    padding-top: 175px;
-    padding-bottom: 150px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-top: 12vw;
+    padding-bottom: 20vh;
     background-color: rgb(255, 30, 90);
     background-color: rgb(190, 5, 50);
 }
 
 #we{
-    border-radius: 100px;
-    padding: 100px 10px;
-    padding-bottom: 150px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-bottom: 20vh;
     background-color: rgb(255, 30, 90);
+
 }
 
 #Th{
-    border-radius: 100px;
-    padding: 100px 20px;
-    padding-top: 175px;
-    padding-bottom: 350px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-top: 12vw;
+    padding-bottom: 30vh;
     background-color: rgb(255, 40, 110);
     background-color: rgb(190, 5, 50);
 }
 
 #th{
-    border-radius: 100px;
-    padding: 100px 20px;
-    padding-bottom: 350px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-bottom: 30vh;
     background-color: rgb(255, 40, 110);
+
 }
 
 #Fr{
-    border-radius: 100px;
-    padding: 100px 35px;
-    padding-top: 175px;
-    padding-bottom: 550px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-top: 12vw;
+    padding-bottom: 45vh;
     background-color: rgb(255, 70, 120);
     background-color: rgb(190, 5, 50);
 }
 
 #fr{
-    border-radius: 100px;
-    padding: 100px 35px;
-    padding-bottom: 550px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-bottom: 45vh;
     background-color: rgb(255, 70, 120);
+
 }
 
 #Sa{
-    border-radius: 100px;
-    padding: 100px 20px;
-    padding-top: 200px;
-    padding-bottom: 450px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-top: 12vw;
+    padding-bottom: 35vh;
     background-color: rgb(255, 10, 130);
     background-color: rgb(190, 5, 50);
 }
 
 #sa{
-    border-radius: 100px;
-    padding: 100px 20px;
-    padding-bottom: 450px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-bottom: 35vh;
     background-color: rgb(255, 10, 130);
-    
+
+
 }
 
 #Su{
-    border-radius: 100px;
-    padding: 100px 30px;
-    padding-top: 175px;
-    padding-bottom: 200px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-top: 12vw;
+    padding-bottom: 25vh;
     background-color: rgb(255, 70, 100);
     background-color: rgb(190, 5, 50);
 }
 
 #su{
-    border-radius: 100px;
-    padding: 100px 30px;
-    padding-bottom: 200px;
+    border-radius: 8vw;
+    padding: 10vw 2vw;
+    padding-bottom: 25vh;
     background-color: rgb(255, 70, 100);
+
 }
-
-
-

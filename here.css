@@ -18,7 +18,7 @@ h1{
 .accueilF{
     background-color: rgb(0, 0, 0);
     display: block;
-    margin-top: -7vw;
+    margin-top: -7vh;
 
 
 }
@@ -26,10 +26,10 @@ h1{
 .messF{
     background-color: white;
     color: black;
-    letter-spacing: 3px;
-    border-radius: 50px;
+    letter-spacing: 1vw;
+    border-radius: 3vw;
     align-content: center;
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.5vh;
 }
 
 .portal{
@@ -38,16 +38,16 @@ h1{
     align-content: center;
     margin-left: 22vw;
     width:56vw;
-    margin-top: 1vw;
+    margin-top: 1vh;
     font-size: 3vw;
     text-decoration: underline;
-    border-radius: 50px;
+    border-radius: 3vw;
 }
 
 a{
     color:rgb(0, 0, 0);
     text-decoration: none;
-    
+
 }
 
 .accueilA{
@@ -71,7 +71,7 @@ a{
     background-color: white;
     opacity:0.20;
     font-size: 3.5vw;
-    margin-top:10vw;
+    margin-top:20vh;
 }
 
 #fr2{
