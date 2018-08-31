@@ -1,0 +1,303 @@
+body{
+  background-color: black;
+}
+
+@font-face{
+    font-family: Aloja;
+    src: url('Aloja-Light.otf');
+}
+
+@font-face{
+    font-family: Westfalia;
+    src: url('Westfalia-Regular.otf');
+}
+
+.desc{
+  color: rgb(125, 125, 125);
+  max-width: 500px;
+  min-width: 300px;
+  width: 28vw;
+  font-size: calc(20px + 0.6vw);
+  text-align: left;
+  padding: 2vw 2vh;
+  background-color: black;
+  border-style: solid;
+  border-width: thick;
+  border-color: rgb(205, 205, 205);
+  margin-left: 65vw;
+  margin-top: 25vh;
+  font-family: Westfalia;
+  position: fixed;
+  z-index: 3;
+  border-radius: 25px;
+
+}
+
+#altEN{
+  margin-top: 20vh;
+  max-width: 500px;
+}
+
+#altFR{
+  margin-top: 17vh;
+  max-width: 500px;
+}
+
+#assocFR{
+  opacity: 0;
+  margin-top: 20vh;
+}
+
+#french{
+  position: fixed;
+  width: auto;
+  max-width: 50px;
+  min-width: 20px;
+  color: rgb(150, 150, 150);
+  font-size: calc(20px + 0.6vw);
+  text-align: left;
+  font-family: Westfalia;
+  margin-left: 83vw;
+  margin-top: 92vh;
+  z-index: 4;
+
+
+
+}
+
+#english{
+  position: fixed;
+  width: auto;
+  max-width: 50px;
+  min-width: 20px;
+  color: rgb(225, 225, 225);
+  font-size: calc(20px + 0.6vw);
+  text-align: left;
+  font-family: Westfalia;
+  margin-left: 85vw;
+  margin-top: 92vh;
+  z-index: 4;
+  text-decoration: underline;
+
+
+}
+
+
+
+
+
+.promo{
+  position:absolute;
+  width: 27vw;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: black;
+  padding: 8px 8px;
+  z-index: 1;
+  border-radius: 50px;
+
+}
+
+.photoShop{
+  position:absolute;
+  width: 27vw;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: black;
+  padding: 8px 8px;
+  z-index: 1;
+  border-radius: 50px;
+
+}
+
+.hpage{
+  position: fixed;
+  color: rgb(255, 255, 255);
+  font-size: calc(13px + 0.4vw);
+  text-align: left;
+  font-family: Aloja;
+  margin-left: 90vw;
+  margin-top: 92vh;
+  z-index: 4;
+}
+
+
+
+#p1{
+  position:absolute;
+  left: 2vw;
+  top: 50vh;
+}
+
+#p2{
+  position:absolute;
+  left: 10vw;
+  top: 2vh;
+}
+
+#p3{
+  position:absolute;
+  left: 15vw;
+  top: 30vh;
+
+}
+
+#p4{
+  position:absolute;
+  left: 35vw;
+  top: 15vh;
+}
+
+#p5{
+  position:absolute;
+  left: 28vw;
+  top: 40vh;
+
+}
+
+#ps1{
+  position:absolute;
+  left: 40vw;
+  top: 35vh;
+  width:30vw;
+}
+
+#ps2{
+  position:absolute;
+  left: 5vw;
+  top: 10vh;
+}
+
+#ps3{
+  position:absolute;
+  left: 68vw;
+  top: 43vh;
+
+}
+
+#ps4{
+  position:absolute;
+  left: 25vw;
+  top: 22vh;
+}
+
+#ps5{
+  position:absolute;
+  left: 63vw;
+  top: 2vh;
+
+}
+
+.promo:hover{
+  position: absolute;
+  z-index: 5;
+}
+
+.photoShop:hover{
+  position: absolute;
+  z-index: 5;
+}
+
+#s1{
+  position:absolute;
+  left: 2vw;
+  top: 55vh;
+}
+
+#s2{
+  position:absolute;
+  left: 7vw;
+  top: 7vh;
+}
+
+#s3{
+  position:absolute;
+  left: 15vw;
+  top: 27vh;
+
+}
+
+#s4{
+  position:absolute;
+  left: 30vw;
+  top: 37vh;
+}
+
+#s5{
+  position:absolute;
+  left: 25vw;
+  top: 20vh;
+
+}
+
+.triangle-right{
+  width: 0;
+  height: 0;
+  position: fixed;
+  margin-left: 77vw;
+  margin-top: 92vh;
+  color: rgb(150, 150, 150);
+  border-top: 15px solid transparent;
+	border-left: 30px solid #555;
+	border-bottom: 15px solid transparent;
+  z-index: 4;
+
+}
+
+.linkW{
+  position: fixed;
+  width: auto;
+  max-width: 150px;
+  min-width: 20px;
+  color: rgb(225, 225, 225);
+  font-size: calc(20px + 0.6vw);
+  text-align: left;
+  font-family: Westfalia;
+  margin-left: 77vw;
+  margin-top: 92vh;
+  z-index: 4;
+
+}
+
+
+#ver1{
+  position: fixed;
+  width: auto;
+  max-width: 125px;
+  min-width: 20px;
+  color: rgb(225, 225, 225);
+  font-size: calc(20px + 0.6vw);
+  text-align: left;
+  font-family: Westfalia;
+  margin-left: 65vw;
+  margin-top: 92vh;
+  z-index: 4;
+}
+
+#ver2{
+  position: fixed;
+  width: auto;
+  max-width: 125px;
+  min-width: 20px;
+  color: rgb(150, 150, 150);
+  font-size: calc(20px + 0.6vw);
+  text-align: left;
+  font-family: Westfalia;
+  margin-left: 70vw;
+  margin-top: 92vh;
+  z-index: 4;
+}
+
+#sea1{
+  position: absolute;
+  top: 20%;
+  z-index: 3;
+
+}
+
+#sea2{
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+
+}
