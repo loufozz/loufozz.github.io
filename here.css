@@ -32,6 +32,11 @@ h1{
     margin-bottom: 0.5vh;
 }
 
+@keyframes portal{
+  from {opacity: 1;}
+  to {opacity: 0.2;}
+}
+
 .portal{
     background-color: white;
     text-align: center;
@@ -42,7 +47,13 @@ h1{
     font-size: 3vw;
     text-decoration: underline;
     border-radius: 3vw;
+    animation-name: portal;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+
 
 a{
     color:rgb(0, 0, 0);
