@@ -32,25 +32,7 @@ a{
     text-decoration: underline;
 }
 
-.cimeteryEntr{
-  width: 25vw;
-  margin-left:20vw;
-  margin-top:1vh;
-  text-align:center;
-  align-content:center;
-  font-family: Westfalia;
-  font-size: calc(20px + 0.5vw);
-  color: white;
-  position:absolute;
-  z-index: 4;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
-  opacity: 0.75;
-}
 
-.cimeteryEntr:hover{
-  filter: blur(0px);
-}
 
 .longLife{
   width: 25vw;
