@@ -1,12 +1,14 @@
 body{
   background-color: black;
+  display: block;
+  margin: 0; height: auto;
 }
 
 h1{
   color: white;
 }
 
-@font-face{
+/* @font-face{
     font-family: Aloja;
     src: url('Aloja-Light.otf');
 }
@@ -19,17 +21,25 @@ h1{
 @font-face{
     font-family: Leafy;
     src: url('leafy.otf');
-}
+} */
 
 #titrenom{
-  text-align: center;
-  font-size: calc(50px + 2vw);
-  font-family: Aloja;
+  text-align: left;
+  font-size: calc(20px + 2vw);
+  /* font-family: Aloja; */
+}
+
+#status{
+  text-align: left;
+  font-size: calc(0.5rem + 2vw);
+  color: white;
+  top: 10vw;
+  /* font-family: Aloja; */
 }
 
 a{
     color:rgb(240, 230, 235);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 
@@ -40,43 +50,43 @@ a{
   margin-top:30vh;
   text-align:center;
   align-content:center;
-  font-family: Westfalia;
+  /* font-family: Westfalia; */
   font-size: calc(20px + 0.5vw);
   color: white;
   position:absolute;
   z-index: 4;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
+  /* -webkit-filter: blur(2px);
+  filter: blur(2px); */
   opacity: 0.75;
 }
 
 .longLife:hover{
-  filter: blur(0px);
+  /* filter: blur(0px); */
 }
 
 .city{
   width: 25vw;
   margin-left:58vw;
-  margin-top:10vh;
+  margin-top:5vw;
   text-align:center;
   align-content:center;
-  font-family: Westfalia;
-  font-size: calc(20px + 0.5vw);
+  /* font-family: Westfalia; */
+  font-size: calc(10px + 0.5vw);
   color: white;
   position:absolute;
   z-index: 4;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
+  /* -webkit-filter: blur(2px);
+  filter: blur(2px); */
   opacity: 0.75;
 
 
 }
 
 .city:hover{
-  filter: blur(0px);
+  /* filter: blur(0px); */
 }
 
-.notSexual{
+.EVJ{
   width: 25vw;
   margin-left:40vw;
   margin-top:25vh;
@@ -87,13 +97,13 @@ a{
   color: white;
   position:absolute;
   z-index: 4;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
+  /* -webkit-filter: blur(2px);
+  filter: blur(2px); */
   opacity: 0.75;
 }
 
 .notSexual:hover{
-  filter: blur(0px);
+  /* filter: blur(0px); */
 }
 
 .artWork{
@@ -101,18 +111,18 @@ a{
   position: absolute;
 
   z-index: 1;
-  -webkit-filter: blur(5px);
-    filter: blur(5px);
+  /* -webkit-filter: blur(5px);
+    filter: blur(5px); */
     background-color: black;
-    padding: 10px 10px;
-    border-radius: 100px;
+    /* padding: 10px 10px;
+    border-radius: 100px; */
 }
 
 
 
 #art1{
   left: 40vw;
-  top: 30vh;
+  top: 30vw;
   z-index: 3;
 
 
@@ -120,16 +130,16 @@ a{
 
 #art2{
   left: 62vw;
-  top: 25vh;
+  top: 25vw;
   z-index: 2;
 }
 
 #art3{
   left: 50vw;
-  top: 50vh;
+  top: 50vw;
 }
 
 #art4{
-  left: 7vw;
-  top: 25vh;
+  left: 15vw;
+  top: 25vw;
 }
