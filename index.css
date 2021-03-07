@@ -82,7 +82,7 @@ a{
   margin-top:25vh;
   text-align:center;
   align-content:center;
-  font-family: Westfalia;
+  /*font-family: Westfalia;*/
   font-size: calc(20px + 0.5vw);
   color: white;
   position:absolute;
