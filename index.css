@@ -6,6 +6,7 @@ body{
 
 h1{
   color: white;
+  z-index: 2;
 }
 
 /* @font-face{
@@ -27,6 +28,9 @@ h1{
   text-align: left;
   font-size: calc(20px + 2vw);
   /* font-family: Aloja; */
+  z-index: 2;
+  display: inline;
+  position: absolute;
 }
 
 #status{
@@ -34,6 +38,9 @@ h1{
   font-size: calc(0.5rem + 2vw);
   color: white;
   top: 10vw;
+  z-index: 2;
+  display: inline;
+  position: absolute;
   /* font-family: Aloja; */
 }
 
@@ -64,27 +71,7 @@ a{
   /* filter: blur(0px); */
 }
 
-.city{
-  width: 25vw;
-  margin-left:58vw;
-  margin-top:5vw;
-  text-align:center;
-  align-content:center;
-  /* font-family: Westfalia; */
-  font-size: calc(10px + 0.5vw);
-  color: white;
-  position:absolute;
-  z-index: 4;
-  /* -webkit-filter: blur(2px);
-  filter: blur(2px); */
-  opacity: 0.75;
 
-
-}
-
-.city:hover{
-  /* filter: blur(0px); */
-}
 
 .EVJ{
   width: 25vw;
@@ -102,44 +89,78 @@ a{
   opacity: 0.75;
 }
 
-.notSexual:hover{
-  /* filter: blur(0px); */
-}
-
-.artWork{
-  width: 25vw;
+.square1{
+  background-color: #90FF00;
+  display: inline-block;
   position: absolute;
-
-  z-index: 1;
-  /* -webkit-filter: blur(5px);
-    filter: blur(5px); */
-    background-color: black;
-    /* padding: 10px 10px;
-    border-radius: 100px; */
+  margin: 0;  width: 50vw; height: 50vh;
+  z-index: 0;
+  animation-name: square1color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-
-
-#art1{
-  left: 40vw;
-  top: 30vw;
-  z-index: 3;
-
-
+@keyframes square1color {
+  0%   {background-color: #90FF00;}
+  25%  {background-color: #5E00FF;}
+  50%  {background-color: #00F2FF;}
+  75%  {background-color: #E900FF;}
+  100% {background-color: #90FF00;}
 }
 
-#art2{
-  left: 62vw;
-  top: 25vw;
-  z-index: 2;
+.square2{
+  background-color: #E900FF;
+  display: inline-block;
+  position: absolute;
+  margin-left: 50vw; width: 50vw; height: 50vh;
+  z-index: 0;
+  animation-name: square2color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-#art3{
-  left: 50vw;
-  top: 50vw;
+@keyframes square2color {
+  0%   {background-color: #E900FF;}
+  25%  {background-color: #90FF00;}
+  50%  {background-color: #5E00FF;}
+  75%  {background-color: #00F2FF;}
+  100% {background-color: #E900FF;}
 }
 
-#art4{
-  left: 15vw;
-  top: 25vw;
+.square3{
+  background-color: #5E00FF;
+  display: inline-block;
+  position: absolute;
+  margin-top: 50vh; width: 50vw; height: 50vh;
+  z-index: 0;
+  animation-name: square3color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes square3color {
+  0%   {background-color: #5E00FF;}
+  25%  {background-color: #00F2FF;}
+  50%  {background-color: #E900FF;}
+  75%  {background-color: #90FF00;}
+  100% {background-color: #5E00FF;}
+}
+
+.square4{
+  background-color: #00F2FF;
+  display: inline-block;
+  position: absolute;
+  margin-top: 50vh; margin-left: 50vw; width: 50vw; height: 50vh;
+  z-index: 0;
+  animation-name: square4color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes square4color {
+  0%   {background-color: #00F2FF;}
+  25%  {background-color: #E900FF;}
+  50%  {background-color: #90FF00;}
+  75%  {background-color: #5E00FF;}
+  100% {background-color: #00F2FF;}
 }
