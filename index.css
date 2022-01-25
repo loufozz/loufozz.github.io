@@ -9,23 +9,8 @@ h1{
   z-index: 2;
 }
 
-/* @font-face{
-    font-family: Aloja;
-    src: url('Aloja-Light.otf');
-}
-
-@font-face{
-    font-family: Westfalia;
-    src: url('Westfalia-Regular.otf');
-}
-
-@font-face{
-    font-family: Leafy;
-    src: url('leafy.otf');
-} */
-
 #titrenom{
-  text-align: left;
+  text-align: center;
   font-size: calc(20px + 2vw);
   /* font-family: Aloja; */
   z-index: 2;
@@ -34,7 +19,7 @@ h1{
 }
 
 #status{
-  text-align: left;
+  text-align: center;
   font-size: calc(0.5rem + 2vw);
   color: white;
   top: 10vw;
@@ -47,46 +32,6 @@ h1{
 a{
     color:rgb(240, 230, 235);
     /* text-decoration: underline; */
-}
-
-
-
-.longLife{
-  width: 25vw;
-  margin-left:13vw;
-  margin-top:30vh;
-  text-align:center;
-  align-content:center;
-  /* font-family: Westfalia; */
-  font-size: calc(20px + 0.5vw);
-  color: white;
-  position:absolute;
-  z-index: 4;
-  /* -webkit-filter: blur(2px);
-  filter: blur(2px); */
-  opacity: 0.75;
-}
-
-.longLife:hover{
-  /* filter: blur(0px); */
-}
-
-
-
-.EVJ{
-  width: 25vw;
-  margin-left:40vw;
-  margin-top:25vh;
-  text-align:center;
-  align-content:center;
-  /*font-family: Westfalia;*/
-  font-size: calc(20px + 0.5vw);
-  color: white;
-  position:absolute;
-  z-index: 4;
-  /* -webkit-filter: blur(2px);
-  filter: blur(2px); */
-  opacity: 0.75;
 }
 
 .square1{
