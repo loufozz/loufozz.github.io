@@ -15,7 +15,7 @@ h1{
   font-size: calc(20px + 2vw);
   /* font-family: Aloja; */
   z-index: 2;
-  display: inline;
+  display: block;
   position: relative;
 }
 
@@ -26,7 +26,7 @@ h1{
   color: white;
   top: 10vw;
   z-index: 2;
-  display: inline;
+  display: block;
   position: relative;
   /* font-family: Aloja; */
 }
