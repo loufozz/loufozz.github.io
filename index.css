@@ -15,7 +15,7 @@ h1{
   /* font-family: Aloja; */
   z-index: 2;
   display: inline;
-  position: absolute;
+  position: relative;
 }
 
 #status{
@@ -25,7 +25,7 @@ h1{
   top: 10vw;
   z-index: 2;
   display: inline;
-  position: absolute;
+  position: relative;
   /* font-family: Aloja; */
 }
 
